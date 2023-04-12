@@ -31,15 +31,6 @@ close.addEventListener("click", () =>{
   loginForm.classList.remove("open");
 });
 
-
-// dropdown open/close functioning 
-
-// dropMenu = document.querySelectorAll("dropdown-menu");
-
-// function closeDropdown() {
-//   dropMenu.classList.remove("show");
-// }
-
-// $('#btnFilter').click(function() {
-//   $(this).parents('.dropdown').find('button.dropdown-toggle').dropdown('toggle')
-// });
+function closeDropdown() {
+  document.getElementsByClassName('dropdown-menu search-dropdown-box show')[0].classList.remove('show');  
+} 

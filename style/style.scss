@@ -772,7 +772,8 @@ $dark-bg: rgba(69, 160, 217, 0.50);
 
     .testimonial-box {
         padding: 50px;
-        background: url(../assets/home_img/bg-3.png);
+        background: conic-gradient(from 0.15deg at 46.94% 100%, rgba(71, 161, 217, 0.2) 0deg, rgba(206, 6, 149, 0.1) 135.46deg, rgba(71, 161, 217, 0.2) 360deg);
+        // background: url(../assets/home_img/bg-3.png);
         background-size: cover;
 
         .row {

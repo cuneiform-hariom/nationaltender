@@ -459,11 +459,13 @@ a,
 
 #InnerPage .DashBoardWrap .DashBoardContent .FilterBox {}
 
-#InnerPage .DashBoardWrap .DashBoardContent .ClearBtn {
+/* #InnerPage .DashBoardWrap .DashBoardContent */
+.FilterBox .ClearBtn {
   text-align: right;
 }
 
-#InnerPage .DashBoardWrap .DashBoardContent .ClearBtn .Clear {
+/* #InnerPage .DashBoardWrap .DashBoardContent  */
+.FilterBox .ClearBtn .Clear {
   background: #E7E7E7;
   border: 0.5px solid #265285;
   border-radius: 50px;
@@ -567,7 +569,8 @@ a,
   width: 6px;
 }
 
-#InnerPage .DashBoardWrap .DashBoardContent .ApplyFilterWrap {
+/* #InnerPage .DashBoardWrap .DashBoardContent */
+.ApplyFilterWrap {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -575,7 +578,8 @@ a,
   margin-bottom: 30px;
 }
 
-#InnerPage .DashBoardWrap .DashBoardContent .ApplyFilterWrap .SelectBox .SelectBtn {
+/* #InnerPage .DashBoardWrap .DashBoardContent  */
+.ApplyFilterWrap .SelectBox .SelectBtn {
   border: 1px solid #265285;
   border-radius: 5px;
   font-weight: 500;
@@ -586,8 +590,10 @@ a,
   margin: 0 2px;
 }
 
-#InnerPage .DashBoardWrap .DashBoardContent .filterModal .btn,
-#InnerPage .DashBoardWrap .DashBoardContent .btn.show {
+/* #InnerPage .DashBoardWrap .DashBoardContent  */
+.filterModal .btn,
+/* #InnerPage .DashBoardWrap .DashBoardContent  */
+.btn.show {
   font-weight: 500;
   font-size: 14px;
   line-height: 26px;
@@ -604,7 +610,8 @@ a,
   width: 14px;
 }
 
-#InnerPage .DashBoardWrap .DashBoardContent .SerachBox {
+/* #InnerPage .DashBoardWrap .DashBoardContent  */
+.SerachBox {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -613,16 +620,21 @@ a,
   padding: 10px 15px 10px 10px;
 }
 
-#InnerPage .DashBoardWrap .DashBoardContent .SerachBox .BtnSearch {
+/* #InnerPage .DashBoardWrap .DashBoardContent  */
+.SerachBox .BtnSearch {
   display: flex;
+  gap: 10px;
+
 }
 
-#InnerPage .DashBoardWrap .DashBoardContent .SerachBox .BtnSearch .archievebtn,
-#InnerPage .DashBoardWrap .DashBoardContent .SerachBox .BtnSearch .tablinksfilter {
+/* #InnerPage .DashBoardWrap .DashBoardContent  */
+.SerachBox .BtnSearch .archievebtn,
+/* #InnerPage .DashBoardWrap .DashBoardContent  */
+.SerachBox .BtnSearch .tablinksfilter {
   background: #FFFFFF;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
   border-radius: 6px;
-  padding: 8px 16px;
+  padding: 8px 16px !important;
   font-weight: 500;
   font-size: 14px;
   line-height: 26px;
@@ -635,32 +647,41 @@ a,
   transition: unset;
 }
 
-#InnerPage .DashBoardWrap .DashBoardContent .SerachBox .BtnSearch .archievebtn img,
-#InnerPage .DashBoardWrap .DashBoardContent .SerachBox .BtnSearch .tablinksfilter img {
+/* #InnerPage .DashBoardWrap .DashBoardContent  */
+.SerachBox .BtnSearch .archievebtn img,
+/* #InnerPage .DashBoardWrap .DashBoardContent  */
+.SerachBox .BtnSearch .tablinksfilter img {
   width: 18px;
   margin-right: 6px;
   height: 18px;
   transition: unset;
 }
 
-#InnerPage .DashBoardWrap .DashBoardContent .SerachBox .BtnSearch .archievebtn.show,
-#InnerPage .DashBoardWrap .DashBoardContent .SerachBox .BtnSearch .archievebtn:hover,
-#InnerPage .DashBoardWrap .DashBoardContent .SerachBox .BtnSearch .tablinksfilter.active,
-#InnerPage .DashBoardWrap .DashBoardContent .SerachBox .BtnSearch .tablinksfilter:hover {
+/* #InnerPage .DashBoardWrap .DashBoardContent  */
+.SerachBox .BtnSearch .archievebtn.show,
+/* #InnerPage .DashBoardWrap .DashBoardContent  */
+.SerachBox .BtnSearch .archievebtn:hover,
+/* #InnerPage .DashBoardWrap .DashBoardContent  */
+.SerachBox .BtnSearch .tablinksfilter.active,
+/* #InnerPage .DashBoardWrap .DashBoardContent  */
+.SerachBox .BtnSearch .tablinksfilter:hover {
   background: #265285;
   color: #fff;
 }
 
-#InnerPage .DashBoardWrap .DashBoardContent .SerachBox .SerachBoxCon {
+/* #InnerPage .DashBoardWrap .DashBoardContent  */
+.SerachBox .SerachBoxCon {
   display: flex;
   align-items: center;
 }
 
-#InnerPage .DashBoardWrap .DashBoardContent .SerachBox .SerachBoxCon .InputBox {
+/* #InnerPage .DashBoardWrap .DashBoardContent  */
+.SerachBox .SerachBoxCon .InputBox {
   position: relative;
 }
 
-#InnerPage .DashBoardWrap .DashBoardContent .SerachBox .SerachBoxCon input {
+/* #InnerPage .DashBoardWrap .DashBoardContent  */
+.SerachBox .SerachBoxCon input {
   background: #FFFFFF;
   border: 0.5px solid #265285;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15), inset 0px 0px 6px rgba(0, 0, 0, 0.2);
@@ -668,7 +689,8 @@ a,
   padding: 7px 20px 7px 50px;
 }
 
-#InnerPage .DashBoardWrap .DashBoardContent .SerachBox .SerachBoxCon .InputBox .SubBtn {
+/* #InnerPage .DashBoardWrap .DashBoardContent  */
+.SerachBox .SerachBoxCon .InputBox .SubBtn {
   border: 0;
   background: unset;
   position: absolute;
@@ -676,7 +698,8 @@ a,
   top: 7px;
 }
 
-#InnerPage .DashBoardWrap .DashBoardContent .SerachBox .BarBtn {
+/* #InnerPage .DashBoardWrap .DashBoardContent  */
+.SerachBox .BarBtn {
   background: #FFFFFF;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
   border-radius: 6px;
@@ -688,7 +711,8 @@ a,
   margin-left: 20px;
 }
 
-#InnerPage .DashBoardWrap .DashBoardContent .SerachBox .BarBtn img {
+/* #InnerPage .DashBoardWrap .DashBoardContent  */
+.SerachBox .BarBtn img {
   height: 18px;
   width: 18px;
 }
@@ -1130,22 +1154,29 @@ a,
   }
 }
 
-#InnerPage .DashBoardWrap .DashBoardContent .SerachBox .BtnSearch .tablinksfilter:first-child img {
+/* #InnerPage .DashBoardWrap .DashBoardContent  */
+.SerachBox .BtnSearch .tablinksfilter:first-child img {
   filter: invert(1);
 }
 
-#InnerPage .DashBoardWrap .DashBoardContent .SerachBox .BtnSearch .archievebtn:hover img,
-#InnerPage .DashBoardWrap .DashBoardContent .SerachBox .BtnSearch .archievebtn.show img,
-#InnerPage .DashBoardWrap .DashBoardContent .SerachBox .BtnSearch .tablinksfilter.active img,
-#InnerPage .DashBoardWrap .DashBoardContent .SerachBox .BtnSearch .tablinksfilter:hover img {
+/* #InnerPage .DashBoardWrap .DashBoardContent  */
+.SerachBox .BtnSearch .archievebtn:hover img,
+/* #InnerPage .DashBoardWrap .DashBoardContent  */
+.SerachBox .BtnSearch .archievebtn.show img,
+/* #InnerPage .DashBoardWrap .DashBoardContent  */
+.SerachBox .BtnSearch .tablinksfilter.active img,
+/* #InnerPage .DashBoardWrap .DashBoardContent  */
+.SerachBox .BtnSearch .tablinksfilter:hover img {
   filter: brightness(0) invert(1);
 }
 
-#InnerPage .DashBoardWrap .DashBoardContent .SerachBox .BtnSearch .tablinksfilter span {
+/* #InnerPage .DashBoardWrap .DashBoardContent  */
+.SerachBox .BtnSearch .tablinksfilter span {
   display: none;
 }
 
-#InnerPage .DashBoardWrap .DashBoardContent .SerachBox .BtnSearch .tablinksfilter.active span {
+/* #InnerPage .DashBoardWrap .DashBoardContent  */
+.SerachBox .BtnSearch .tablinksfilter.active span {
   display: block;
   margin-left: 5px;
 }
@@ -1164,18 +1195,24 @@ a,
   line-height: normal;
 }
 
-#InnerPage .DashBoardWrap .DashBoardContent .SerachBox .BarBtn.show,
-#InnerPage .DashBoardWrap .DashBoardContent .SerachBox .BarBtn:hover {
+/* #InnerPage .DashBoardWrap .DashBoardContent  */
+.SerachBox .BarBtn.show,
+/* #InnerPage .DashBoardWrap .DashBoardContent  */
+.SerachBox .BarBtn:hover {
   background: #265285;
 }
 
-#InnerPage .DashBoardWrap .DashBoardContent .SerachBox .BarBtn.show,
-#InnerPage .DashBoardWrap .DashBoardContent .SerachBox .BarBtn:hover {
+/* #InnerPage .DashBoardWrap .DashBoardContent  */
+.SerachBox .BarBtn.show,
+/* #InnerPage .DashBoardWrap .DashBoardContent  */
+.SerachBox .BarBtn:hover {
   background: #265285;
 }
 
-#InnerPage .DashBoardWrap .DashBoardContent .SerachBox .BarBtn.show img,
-#InnerPage .DashBoardWrap .DashBoardContent .SerachBox .BarBtn:hover img {
+/* #InnerPage .DashBoardWrap .DashBoardContent  */
+.SerachBox .BarBtn.show img,
+/* #InnerPage .DashBoardWrap .DashBoardContent  */
+.SerachBox .BarBtn:hover img {
   filter: brightness(0) invert(1);
 }
 
@@ -1223,15 +1260,18 @@ a,
     padding: 10px 20px 0 45px;
   }
 
-  #InnerPage .DashBoardWrap .DashBoardContent .ApplyFilterWrap .SelectBox {
+  /* #InnerPage .DashBoardWrap .DashBoardContent  */
+  .ApplyFilterWrap .SelectBox {
     width: 75%;
   }
 
-  #InnerPage .DashBoardWrap .DashBoardContent .ApplyFilterWrap .SelectBox .SelectBtn {
+  /* #InnerPage .DashBoardWrap .DashBoardContent  */
+  .ApplyFilterWrap .SelectBox .SelectBtn {
     margin: 5px 2px;
   }
 
-  #InnerPage .DashBoardWrap .DashBoardContent .ApplyFilterWrap {
+  /* #InnerPage .DashBoardWrap .DashBoardContent  */
+  .ApplyFilterWrap {
     align-items: flex-start;
   }
 
@@ -1239,29 +1279,36 @@ a,
     margin-top: 6px;
   }
 
-  #InnerPage .DashBoardWrap .DashBoardContent .SerachBox .BtnSearch,
-  #InnerPage .DashBoardWrap .DashBoardContent .SerachBox .SerachBoxCon {
+  /* #InnerPage .DashBoardWrap .DashBoardContent  */
+  .SerachBox .BtnSearch,
+  /* #InnerPage .DashBoardWrap .DashBoardContent  */
+  .SerachBox .SerachBoxCon {
     width: 100%;
   }
 
-  #InnerPage .DashBoardWrap .DashBoardContent .SerachBox {
+  /* #InnerPage .DashBoardWrap .DashBoardContent  */
+  .SerachBox {
     flex-wrap: wrap;
   }
 
-  #InnerPage .DashBoardWrap .DashBoardContent .SerachBox .SerachBoxCon {
+  /* #InnerPage .DashBoardWrap .DashBoardContent  */
+  .SerachBox .SerachBoxCon {
     padding-left: 0;
     margin-top: 15px;
   }
 
-  #InnerPage .DashBoardWrap .DashBoardContent .SerachBox .SerachBoxCon input {
+  /* #InnerPage .DashBoardWrap .DashBoardContent  */
+  .SerachBox .SerachBoxCon input {
     width: 245px;
   }
 
-  #InnerPage .DashBoardWrap .DashBoardContent .SerachBox .BtnSearch a {
+  /* #InnerPage .DashBoardWrap .DashBoardContent  */
+  .SerachBox .BtnSearch a {
     margin: 5px;
   }
 
-  #InnerPage .DashBoardWrap .DashBoardContent .SerachBox .BtnSearch {
+  /* #InnerPage .DashBoardWrap .DashBoardContent  */
+  .SerachBox .BtnSearch {
     margin-left: -5px;
     margin-right: -5px;
   }
@@ -1437,26 +1484,33 @@ a,
 }
 
 @media(max-width: 767px) {
-  #InnerPage .DashBoardWrap .DashBoardContent .SerachBox {
+
+  /* #InnerPage .DashBoardWrap .DashBoardContent  */
+  .SerachBox {
     display: block;
   }
 
-  #InnerPage .DashBoardWrap .DashBoardContent .SerachBox .SerachBoxCon {
+  /* #InnerPage .DashBoardWrap .DashBoardContent  */
+  .SerachBox .SerachBoxCon {
     padding-left: 0;
     margin-top: 15px;
   }
 
-  #InnerPage .DashBoardWrap .DashBoardContent .SerachBox .BtnSearch,
-  #InnerPage .DashBoardWrap .DashBoardContent .SerachBox .SerachBoxCon {
+  /* #InnerPage .DashBoardWrap .DashBoardContent  */
+  .SerachBox .BtnSearch,
+  /* #InnerPage .DashBoardWrap .DashBoardContent  */
+  .SerachBox .SerachBoxCon {
     width: 100%;
     display: block;
   }
 
-  #InnerPage .DashBoardWrap .DashBoardContent .SerachBox .SerachBoxCon input {
+  /* #InnerPage .DashBoardWrap .DashBoardContent  */
+  .SerachBox .SerachBoxCon input {
     width: 100%;
   }
 
-  #InnerPage .DashBoardWrap .DashBoardContent .SerachBox .BarBtn {
+  /* #InnerPage .DashBoardWrap .DashBoardContent  */
+  .SerachBox .BarBtn {
     margin-left: 0;
     margin-top: 15px
   }
@@ -1539,31 +1593,37 @@ a,
     justify-content: left;
   }
 
-  #InnerPage .DashBoardWrap .DashBoardContent .SerachBox {
+  /* #InnerPage .DashBoardWrap .DashBoardContent  */
+  .SerachBox {
     padding: 10px 10px;
   }
 
-  #InnerPage .DashBoardWrap .DashBoardContent .SerachBox .BtnSearch a img {
+  /* #InnerPage .DashBoardWrap .DashBoardContent  */
+  .SerachBox .BtnSearch a img {
     width: 14px;
     margin-right: 5px;
     height: 14px;
   }
 
-  #InnerPage .DashBoardWrap .DashBoardContent .SerachBox .BtnSearch a {
+  /* #InnerPage .DashBoardWrap .DashBoardContent  */
+  .SerachBox .BtnSearch a {
     font-size: 13px;
     line-height: 24px;
     padding: 5px 10px;
   }
 
-  #InnerPage .DashBoardWrap .DashBoardContent .SerachBox .BtnSearch a {
+  /* #InnerPage .DashBoardWrap .DashBoardContent  */
+  .SerachBox .BtnSearch a {
     margin: 5px 2px;
   }
 
-  #InnerPage .DashBoardWrap .DashBoardContent .ApplyFilterWrap .SelectBox {
+  /* #InnerPage .DashBoardWrap .DashBoardContent  */
+  .ApplyFilterWrap .SelectBox {
     width: 100%;
   }
 
-  #InnerPage .DashBoardWrap .DashBoardContent .ApplyFilterWrap {
+  /* #InnerPage .DashBoardWrap .DashBoardContent  */
+  .ApplyFilterWrap {
     display: block;
   }
 
@@ -1717,22 +1777,27 @@ a,
     padding-bottom: 40px;
   }
 
-  #InnerPage .DashBoardWrap .DashBoardContent .SerachBox .BtnSearch .archievebtn,
-  #InnerPage .DashBoardWrap .DashBoardContent .SerachBox .BtnSearch .tablinksfilter {
+  /* #InnerPage .DashBoardWrap .DashBoardContent  */
+  .SerachBox .BtnSearch .archievebtn,
+  /* #InnerPage .DashBoardWrap .DashBoardContent  */
+  .SerachBox .BtnSearch .tablinksfilter {
     font-size: 12px;
     line-height: 24px;
     padding: 3px 10px;
     margin: 5px;
   }
 
-  #InnerPage .DashBoardWrap .DashBoardContent .SerachBox .BtnSearch .archievebtn img,
-  #InnerPage .DashBoardWrap .DashBoardContent .SerachBox .BtnSearch .tablinksfilter img {
+  /* #InnerPage .DashBoardWrap .DashBoardContent  */
+  .SerachBox .BtnSearch .archievebtn img,
+  /* #InnerPage .DashBoardWrap .DashBoardContent  */
+  .SerachBox .BtnSearch .tablinksfilter img {
     width: 14px;
     margin-right: 5px;
     height: 14px;
   }
 
-  #InnerPage .DashBoardWrap .DashBoardContent .SerachBox .BtnSearch {
+  /* #InnerPage .DashBoardWrap .DashBoardContent  */
+  .SerachBox .BtnSearch {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: -5px;
@@ -1747,12 +1812,14 @@ a,
 
 /* ------------------------------------------------------------------------------------------------------------------------ */
 
-.DashBoardContent .FilterBox .ApplyFilterWrap .SelectBox {
+/* .DashBoardContent */
+.FilterBox .ApplyFilterWrap .SelectBox {
   display: flex;
   gap: 10px;
 }
 
-.DashBoardContent .FilterBox .ApplyFilterWrap .SelectBox .btn {
+/* .DashBoardContent  */
+.FilterBox .ApplyFilterWrap .SelectBox .btn {
   border: 1px solid #265285;
   font-size: 15px;
   padding: 6px;
@@ -1765,14 +1832,14 @@ a,
   border-radius: 15px;
 }
 
-.search-dropdown-box h5{
+.search-dropdown-box h5 {
   font-size: 15px;
   margin: 0;
   padding: 5px;
   background-color: #E4E4E4;
 }
 
-.search-dropdown-box .applyBtnGrp{
+.search-dropdown-box .applyBtnGrp {
   padding: 10px;
   display: flex;
   align-items: center;
@@ -1780,7 +1847,7 @@ a,
   gap: 5px;
 }
 
-.search-dropdown-box .applyBtnGrp button{
+.search-dropdown-box .applyBtnGrp button {
   padding: 5px;
   background: #265285;
   color: white;
@@ -1836,7 +1903,7 @@ a,
   padding: 20px;
 }
 
-.search-dropdown-box .category-box h4{
+.search-dropdown-box .category-box h4 {
   font-size: 16px;
 }
 
@@ -1886,25 +1953,26 @@ a,
   font-size: 15px;
 }
 
-.search-dropdown-box .more{
+.search-dropdown-box .more {
   display: flex;
   flex-direction: column;
   gap: 5px;
 }
-.search-dropdown-box .more div{
+
+.search-dropdown-box .more div {
   background-color: #e6e6e6;
   padding: 10px 5px;
 }
 
-.search-dropdown-box .more div p{
+.search-dropdown-box .more div p {
   font-size: 16px;
 }
 
-.search-dropdown-box .more div form{
+.search-dropdown-box .more div form {
   display: flex;
 }
 
-.search-dropdown-box .more div form input{
+.search-dropdown-box .more div form input {
   width: 100%;
   background-color: white;
   color: black;
@@ -1912,7 +1980,7 @@ a,
   border-radius: 0;
 }
 
-.search-dropdown-box .more div form button{
+.search-dropdown-box .more div form button {
   padding: 5px;
   background: #265285;
   color: white;
@@ -1920,18 +1988,18 @@ a,
   outline: 0;
 }
 
-.search-dropdown-box .accordian-box .accordion-flush .accordion-item{
+.search-dropdown-box .accordian-box .accordion-flush .accordion-item {
   margin: 5px 0;
   padding: 3px 0;
 }
 
-.search-dropdown-box .accordian-box .accordion-flush .accordion-item .accordion-header{
+.search-dropdown-box .accordian-box .accordion-flush .accordion-item .accordion-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.search-dropdown-box .accordian-box .accordion-flush .accordion-item .accordion-header .accordion-button{
+.search-dropdown-box .accordian-box .accordion-flush .accordion-item .accordion-header .accordion-button {
   background: #265285;
   color: white;
   padding: 5px;
@@ -1940,11 +2008,11 @@ a,
   width: auto;
 }
 
-.search-dropdown-box .accordian-box .accordion-flush .accordion-item .accordion-header .accordion-button::after{
+.search-dropdown-box .accordian-box .accordion-flush .accordion-item .accordion-header .accordion-button::after {
   display: none;
 }
 
-.search-dropdown-box .more div span{
+.search-dropdown-box .more div span {
   padding: 5px;
   font-size: 12px;
   background: white;
@@ -1952,28 +2020,29 @@ a,
   border: 1px solid #265285;
   border-radius: 3px;
 }
-.search-dropdown-box .accordian-box .accordion-flush .accordion-item .accordion-body{
+
+.search-dropdown-box .accordian-box .accordion-flush .accordion-item .accordion-body {
   padding: 5px;
 }
 
-.search-dropdown-box .accordian-box .accordion-flush .accordion-item .accordion-body form{
+.search-dropdown-box .accordian-box .accordion-flush .accordion-item .accordion-body form {
   display: flex;
   flex-direction: column;
 }
 
-.search-dropdown-box .accordian-box .accordion-flush .accordion-item .accordion-body form div{
+.search-dropdown-box .accordian-box .accordion-flush .accordion-item .accordion-body form div {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.search-dropdown-box .accordian-box .accordion-flush .accordion-item .accordion-body form input{
+.search-dropdown-box .accordian-box .accordion-flush .accordion-item .accordion-body form input {
   width: 100%;
   margin-top: 5px;
 }
 
-.search-dropdown-box .accordian-box .accordion-flush .accordion-item .accordion-body form button{
+.search-dropdown-box .accordian-box .accordion-flush .accordion-item .accordion-body form button {
   font-size: 13px;
 
   border: 1px solid red;
@@ -1983,17 +2052,19 @@ a,
 }
 
 /* create filter popup  */
-.modal .modal-body .newFilter h5,.modal .modal-body .addFilter h5{
+.modal .modal-body .newFilter h5,
+.modal .modal-body .addFilter h5 {
   font-size: 16px;
 }
 
-.selectedFilters{
+.selectedFilters {
   display: flex;
   background-color: #e4e4e4;
   overflow-x: scroll;
   padding: 5px;
   gap: 5px;
 }
+
 /* 
 .modal .modal-body .newFilter .selectedFilters{
   display: flex;
@@ -2004,7 +2075,7 @@ a,
 } */
 
 /* .modal .modal-body .newFilter */
- .selectedFilters h6{
+.selectedFilters h6 {
   font-size: 13px;
   padding: 5px;
   border: 1px solid #265285;
@@ -2013,20 +2084,20 @@ a,
 }
 
 /* .modal .modal-body .newFilter */
- .selectedFilters h6 span{
+.selectedFilters h6 span {
   color: red;
   font-size: 10px;
 }
 
-.modal .modal-body .addFilter{
+.modal .modal-body .addFilter {
   margin-top: 5px;
 }
 
-.modal .modal-body .addFilter form{
+.modal .modal-body .addFilter form {
   display: flex;
 }
 
-.modal .modal-body .addFilter form input{
+.modal .modal-body .addFilter form input {
   width: 100%;
   border: 1px solid #265285;
   border-radius: 0;
@@ -2034,8 +2105,113 @@ a,
   font-size: 14px;
 }
 
-.modal .modal-body .addFilter form .btn{
+.modal .modal-body .addFilter form .btn {
   padding: 8px;
   font-size: 14px;
   border-radius: 0 5px 5px 0 !important;
+}
+
+.VerticleMenuWrap.allview {
+  /* padding: 20px !important; */
+  margin: 20px;
+}
+
+.MenuBoxSec .mpttitle {
+  font-size: 18px;
+  color: #265285;
+  font-weight: 600;
+  position: relative;
+  font-weight: 700;
+}
+
+.MenuBoxSec .mpttitle::after {
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 2px;
+  background: #265285;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.populartenders {
+  padding: 20px;
+}
+
+.populartenders .mptbox{
+  margin-top: 50px;
+}
+
+.populartenders .mptbox h4 {
+  font-weight: 500;
+  font-size: 18px;
+  color: #265285;
+}
+
+.populartenders .mptbox .mptlocation {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.populartenders .mptbox .dates {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  /* color: #000; */
+}
+
+.populartenders .mptbox .dates .opendate {
+  color: #00AF46;
+  font-weight: 600;
+}
+
+.populartenders .mptbox .dates .closedate {
+  font-weight: 600;
+  color: #CE113B;
+}
+
+.populartenders .mptbox .pidbox {
+  display: flex;
+  justify-content: space-between;
+  margin: 7px 0;
+}
+
+.populartenders .mptbox .pidbox .price {
+  font-weight: 600;
+  font-size: 14px;
+  color: #265285;
+}
+
+.populartenders .mptbox .pidbox .tenderid {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.populartenders .mptbox .btn {
+  padding: 5px 0;
+  font-weight: 600;
+  font-size: 15px;
+  color: #265285;
+  border: solid #265285;
+  border-width: 0 0 2px 0;
+  border-radius: 0;
+}
+
+.MenuBoxSec .applimg{
+  position: relative;
+  margin-top: 50px;
+}
+
+.MenuBoxSec .applimg .btn{
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #265285;
+  padding: 5px 15px;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 100px;
 }
